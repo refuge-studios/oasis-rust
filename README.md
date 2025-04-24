@@ -1,5 +1,5 @@
 # oasis-rust
-Support for Oasis with Rust.
+Using Oasis with Rust.
 Go to https://oasis.refugestudios.com.au/ and download the Oasis API.
 
 Split into 3 projects.
