@@ -1,0 +1,7 @@
+target
+liboasis.so
+oasis_bindings/include/oasis
+oasis_bindings/include/oasis_c
+face_depth12.svdag
+out.svdag
+lpshead

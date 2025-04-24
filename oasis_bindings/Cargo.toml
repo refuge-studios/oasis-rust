@@ -1,0 +1,15 @@
+# .cargo/config.toml
+[package]
+name    = "oasis_bindings"
+version = "0.0.1"
+edition = "2021"
+build   = "build.rs" 
+
+[lib]
+name = "oasis_bindings"
+path = "src/lib.rs"
+#crate-type = ["rlib"] # Or add "cdylib" if you also want a C-callable dynamic library
+
+[build-dependencies]
+bindgen = "0.69" # For generating Rust FFI bindings from C headers
+cc      = "1.0"  # For compiling C/C++ source files

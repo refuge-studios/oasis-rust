@@ -1,0 +1,9 @@
+[package]
+name        = "builder"
+version     = "0.0.1"
+edition     = "2021"
+
+[dependencies]
+tobj           = "4.0.3"
+image          = "0.24.3"
+oasis_bindings = { path = "../oasis_bindings" }

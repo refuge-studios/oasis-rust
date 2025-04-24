@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = [
+  "oasis_bindings",
+  "viewer",
+  "builder",
+]
